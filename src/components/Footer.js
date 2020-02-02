@@ -16,9 +16,9 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
+        <li>&copy; Tomáš Nováček</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Credits: <a href="http://gatsbyjs.org" target="_blank">Gatsby</a>
         </li>
       </ul>
     </footer>

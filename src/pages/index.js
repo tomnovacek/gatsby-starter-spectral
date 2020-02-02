@@ -16,9 +16,9 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
+            <Scroll type="id" element="cta">
               <a href="/#" className="button primary">
-                Explore
+                Kontakt
               </a>
             </Scroll>
           </li>
@@ -26,7 +26,7 @@ const IndexPage = () => (
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
-          Learn More
+          Dozvědět se více
         </a>
       </Scroll>
     </section>
@@ -35,32 +35,28 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Diagnostika | poradenství | psychoterapie
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Nabízím odbornou psychologickou pomoc v obtížných situacích
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            ale i provázení při poznávání sebe sama a osobním rozvoji.
           </p>
         </header>
         <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+              <span className="label">Diagnostika</span>
             </span>
           </li>
           <li>
             <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+              <span className="label">Poradenství</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="icon solid fa-user-friends major style3">
+              <span className="label">Psychoterapie</span>
             </span>
           </li>
         </ul>
@@ -74,7 +70,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
+            Diagnostika
             <br />
             sed ullamcorper
           </h2>
@@ -90,7 +86,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            Poradenství
             <br />
             elementum magna
           </h2>
@@ -106,7 +102,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+            Psychoterapie
             <br />
             sed condimentum
           </h2>
@@ -121,7 +117,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Nejčastější témata</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
             eleifend
@@ -132,42 +128,43 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>Než se setkáme</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              tincidunt nullam amet leo Aenean ligula consequat consequat. Potřebuji
+              terapii?
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>První kontakt</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>První setkání</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>Jak se objednat</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+            <h3>Zajímavé odkazy</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+            <h3>Ceník</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
@@ -180,7 +177,7 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Buďme v kontaktu</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.
@@ -188,13 +185,13 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
+            <a href="mailto:tom.novacek@icloud.com" className="button fit primary">
+              Poslat email
             </a>
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
+            <a href="/Generic" className="button fit">
+              Více o mně
             </a>
           </li>
         </ul>

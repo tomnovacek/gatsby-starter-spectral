@@ -1,34 +1,34 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
+  siteTitle: 'Tom Novacek - psychologist', // <title>
+  manifestName: 'Tom Novacek',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  manifestIcon: 'src/assets/img/TN.svg',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Tom Novacek',
+  subHeading: 'Psychologist, Terapeutist, Consultant ',
   // social
   socialLinks: [
     {
       style: 'brands',
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://linkedin.com/in/tom-novacek',
     },
     {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/tomnonvacek',
     },
     {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'mailto:tomnovacek@icloud.com',
     },
   ],
 };
