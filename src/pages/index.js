@@ -45,18 +45,18 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-user-friends major style1">
-              <span className="label">Diagnostika</span>
+            <span className="icon solid fa-heart major style2">
+              <span className="label">Psychoterapie</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
+            <span className="icon solid fa-user-friends major style3">
               <span className="label">Poradenství</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-gems major style3">
-              <span className="label">Psychoterapie</span>
+            <span className="icon solid fa-gem major style1">
+              <span className="label">Diagnostika</span>
             </span>
           </li>
         </ul>
