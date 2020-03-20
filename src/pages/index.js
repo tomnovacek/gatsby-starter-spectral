@@ -176,14 +176,14 @@ const IndexPage = () => (
         <header>
           <h2>Buďme v kontaktu</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Objedntejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde</a>, 
+            napistě na <a href="mailto:terapie@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>, nebo zavolejte.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="mailto:tom.novacek@icloud.com" className="button fit primary">
-              Poslat email
+            <a href="mailto:terapie@tomasnovacek.com" className="button fit primary">
+              Poslat <a href="mailto:terapie@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>
             </a>
           </li>
           <li>
