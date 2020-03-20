@@ -35,17 +35,17 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Diagnostika | poradenství | psychoterapie
+            Psychoterapie | poradenství | disagnostika
           </h2>
           <p>
             Nabízím odbornou psychologickou pomoc v obtížných situacích
             <br />
-            ale i provázení při poznávání sebe sama a osobním rozvoji.
+            ale i při poznávání sebe sama a osobním rozvoji.
           </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
+            <span className="icon fa-user-friends major style1">
               <span className="label">Diagnostika</span>
             </span>
           </li>
@@ -55,7 +55,7 @@ const IndexPage = () => (
             </span>
           </li>
           <li>
-            <span className="icon solid fa-user-friends major style3">
+            <span className="icon solid fa-gems major style3">
               <span className="label">Psychoterapie</span>
             </span>
           </li>
@@ -66,17 +66,17 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic3} alt="" />
         </div>
         <div className="content">
           <h2>
-            Diagnostika
+            Psychoterapie
             <br />
-            sed ullamcorper
+            Na řešení složitých situací nemusíte být sami
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Ať už stojíte před složitým životním rozhodnutím, řešíte vztahové, nebo 
+            soobní problémy, procházíte složitým životním obdobím a hledáte pomoc. Ozvěte se.
           </p>
         </div>
       </section>
@@ -88,27 +88,27 @@ const IndexPage = () => (
           <h2>
             Poradenství
             <br />
-            elementum magna
+            V oblasti osobního rozvoje a profesního života
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Pokud chcete pracovat na tom, aby se vám práci dařilo lip, zvládali jste stres,
+            nebo chcete pracovat s celým svým týmem. Ozvěte se.
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic1} alt="" />
         </div>
         <div className="content">
           <h2>
-            Psychoterapie
+            Diagnostika
             <br />
-            sed condimentum
+            Osobnosti, zvládání stresu, profesního směřování
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Diagnostika je většinou součást rozsáhlejší spolupráce. Mám rád psychologickou práci
+            postavenou na důkazech. Pokud jste na sebe zvědaví a chcete na sobě pracovat, ozvěte se.
           </p>
         </div>
       </section>
@@ -119,55 +119,52 @@ const IndexPage = () => (
         <header className="major">
           <h2>Nejčastější témata</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Nejčastější dotazy jsou odpovězeny zde.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Pokud máte jakýkoliv dotaz, pište na email. 
           </p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
             <h3>Než se setkáme</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat. Potřebuji
-              terapii?
+              Jsem aktuálně ve výcviku v Integrace v psychoterapii. Je to humanitní 
+              směr postavený na hledání ideální terapie pro konkrétního terapeuta a 
+              klienta.
             </p>
           </li>
           <li className="icon solid fa-laptop">
             <h3>První kontakt</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Provní kontakt probíhá obvykle emailem, telefonicky, nebo rovnou osobně,
+              pokud se objednáte v rezervačním systému.
             </p>
           </li>
           <li className="icon solid fa-code">
             <h3>První setkání</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Na prvním setkání máme možnost se více poznat a domluvit si zakázku. Jde 
+              o to, zkusit si, jestli by nám to společně šlo.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>Jak se objednat</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Nejjednodušší cesta je vybrat si voný termín v rezervačním systému. Můžete 
+              také napsat email, nebo si můžeme v urgentních případech zavolat.
             </p>
           </li>
           <li className="icon fa-heart">
             <h3>Zajímavé odkazy</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              ČAP, Integrace v psychoterapii, EAP
             </p>
           </li>
           <li className="icon fa-flag">
             <h3>Ceník</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Cena pro individuální 50 minutovou konzultaci je 600 Kč. Při práci se skupinou
+              se domlouváme individuálně.
             </p>
           </li>
         </ul>
