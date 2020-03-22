@@ -40,14 +40,6 @@ module.exports = {
         dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
-    {
-      resolve: `gatsby-plugin-hotjar-tracking`,
-      options: {
-        includeInDevelopment: false,
-        id: 1675219,
-        sv: 6
-      }
-    }
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
