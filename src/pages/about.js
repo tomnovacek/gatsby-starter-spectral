@@ -6,12 +6,12 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Generic Page</h2>
-        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        <h2>Dobrý den</h2>
+        <p></p>
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Pár slov o mně</h3>
           <p>
             Morbi mattis mi consectetur tortor elementum, varius pellentesque
             velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
@@ -42,7 +42,7 @@ const IndexPage = () => (
 
           <hr />
 
-          <h4>Feugiat aliquam</h4>
+          <h4>Jak pracuji</h4>
           <p>
             Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
             varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia

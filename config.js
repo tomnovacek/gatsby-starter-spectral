@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Tom Novacek - psychologist', // <title>
-  manifestName: 'Tom Novacek',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Tomáš Nováček - psycholog', // <title>
+  manifestName: 'Tomas Novacek',
+  manifestShortName: 'Home', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/TN.svg',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Tom Novacek',
-  subHeading: 'Psychologist, Terapeutist, Consultant ',
+  heading: 'Tomáš Nováček',
+  subHeading: 'Psycholog, terapeut, konzultant',
   // social
   socialLinks: [
     {

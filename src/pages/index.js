@@ -35,7 +35,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Psychoterapie | poradenství | disagnostika
+            Psychoterapie | poradenství | diagnostika
           </h2>
           <p>
             Nabízím odbornou psychologickou pomoc v obtížných situacích
@@ -71,8 +71,6 @@ const IndexPage = () => (
         <div className="content">
           <h2>
             Psychoterapie
-            <br />
-            Na řešení složitých situací nemusíte být sami
           </h2>
           <p>
             Ať už stojíte před složitým životním rozhodnutím, řešíte vztahové, nebo 
@@ -87,8 +85,6 @@ const IndexPage = () => (
         <div className="content">
           <h2>
             Poradenství
-            <br />
-            V oblasti osobního rozvoje a profesního života
           </h2>
           <p>
             Pokud chcete pracovat na tom, aby se vám práci dařilo lip, zvládali jste stres,
@@ -103,8 +99,6 @@ const IndexPage = () => (
         <div className="content">
           <h2>
             Diagnostika
-            <br />
-            Osobnosti, zvládání stresu, profesního směřování
           </h2>
           <p>
             Diagnostika je většinou součást rozsáhlejší spolupráce. Mám rád psychologickou práci
@@ -119,48 +113,49 @@ const IndexPage = () => (
         <header className="major">
           <h2>Nejčastější témata</h2>
           <p>
-            Nejčastější dotazy jsou odpovězeny zde.
+            Pár nečastějších dotazů.
             <br />
-            Pokud máte jakýkoliv dotaz, pište na email. 
+            Pokud máte jakýkoliv jiný dotaz, pište na&nbsp;
+            <a href="mailto:mail@tomasnovacek.com?Subject=dotaz%20z%20webu" target="_top">email.</a> 
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <li className="icon solid fa-user">
             <h3>Než se setkáme</h3>
             <p>
               Jsem aktuálně ve výcviku v Integrace v psychoterapii. Je to humanitní 
-              směr postavený na hledání ideální terapie pro konkrétního terapeuta a 
-              klienta.
+              směr postavený na hledání ideální terapie pro konkrétního klienta a 
+              terapeuta.
             </p>
           </li>
-          <li className="icon solid fa-laptop">
+          <li className="icon solid fa-address-card">
             <h3>První kontakt</h3>
             <p>
               Provní kontakt probíhá obvykle emailem, telefonicky, nebo rovnou osobně,
               pokud se objednáte v rezervačním systému.
             </p>
           </li>
-          <li className="icon solid fa-code">
+          <li className="icon solid fa-user-friends">
             <h3>První setkání</h3>
             <p>
               Na prvním setkání máme možnost se více poznat a domluvit si zakázku. Jde 
               o to, zkusit si, jestli by nám to společně šlo.
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
+          <li className="icon solid fa-calendar-alt">
             <h3>Jak se objednat</h3>
             <p>
               Nejjednodušší cesta je vybrat si voný termín v rezervačním systému. Můžete 
               také napsat email, nebo si můžeme v urgentních případech zavolat.
             </p>
           </li>
-          <li className="icon fa-heart">
+          <li className="icon solid fa-link">
             <h3>Zajímavé odkazy</h3>
             <p>
               ČAP, Integrace v psychoterapii, EAP
             </p>
           </li>
-          <li className="icon fa-flag">
+          <li className="icon solid fa-money-bill">
             <h3>Ceník</h3>
             <p>
               Cena pro individuální 50 minutovou konzultaci je 600 Kč. Při práci se skupinou
@@ -176,18 +171,18 @@ const IndexPage = () => (
         <header>
           <h2>Buďme v kontaktu</h2>
           <p>
-            Objedntejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde</a>, 
-            napistě na <a href="mailto:terapie@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>, nebo zavolejte.
+            Objednejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde</a> 
+            nebo napistě <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="mailto:terapie@tomasnovacek.com" className="button fit primary">
-              Poslat <a href="mailto:terapie@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>
+            <a href="mailto:mail@tomasnovacek.com" className="button fit primary">
+              Poslat <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>
             </a>
           </li>
           <li>
-            <a href="/Generic" className="button fit">
+            <a href="/About" className="button fit">
               Více o mně
             </a>
           </li>
