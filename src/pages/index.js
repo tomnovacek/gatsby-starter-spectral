@@ -38,7 +38,7 @@ const IndexPage = () => (
             Psychoterapie | poradenství | diagnostika
           </h2>
           <p>
-            Nabízím odbornou psychologickou pomoc v obtížných situacích
+            Nabízím odbornou psychologickou pomoc v obtížných situacích,
             <br />
             ale i při poznávání sebe sama a osobním rozvoji.
           </p>
