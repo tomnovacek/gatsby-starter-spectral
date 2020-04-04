@@ -74,7 +74,7 @@ const IndexPage = () => (
           </h2>
           <p>
             Ať už stojíte před složitým životním rozhodnutím, řešíte vztahové, nebo 
-            soobní problémy, procházíte složitým životním obdobím a hledáte pomoc. Ozvěte se.
+            osobní problémy, procházíte složitým životním obdobím a hledáte pomoc. Ozvěte se.
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ const IndexPage = () => (
           <li className="icon solid fa-address-card">
             <h3>První kontakt</h3>
             <p>
-              Provní kontakt probíhá obvykle emailem, telefonicky, nebo rovnou osobně,
+              První kontakt probíhá obvykle emailem, telefonicky, nebo rovnou osobně,
               pokud se objednáte v rezervačním systému.
             </p>
           </li>
@@ -145,7 +145,7 @@ const IndexPage = () => (
           <li className="icon solid fa-calendar-alt">
             <h3>Jak se objednat</h3>
             <p>
-              Nejjednodušší cesta je vybrat si voný termín v rezervačním systému. Můžete 
+              Nejjednodušší cesta je vybrat si volný termín v rezervačním systému. Můžete 
               také napsat email, nebo si můžeme v urgentních případech zavolat.
             </p>
           </li>
@@ -172,7 +172,7 @@ const IndexPage = () => (
           <h2>Buďme v kontaktu</h2>
           <p>
             Objednejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde</a> 
-            nebo napistě <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>.
+            nebo napište <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>.
           </p>
         </header>
         <ul className="actions stacked">
