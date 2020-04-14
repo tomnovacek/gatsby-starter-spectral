@@ -28,7 +28,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:terapie@tomasnovacek.com',
+      url: 'mailto:mail@tomasnovacek.com',
     },
   ],
 };
