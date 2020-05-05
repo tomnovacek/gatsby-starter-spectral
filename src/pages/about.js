@@ -25,15 +25,15 @@ const IndexPage = () => (
           <p>
             Pracuji různě. Jezdím za klienty, zvu je k sobě do pracovny, chodím 
             s nimi na procházky, na kafe, setkávám se s nimi online. Vše záleží 
-            na dohodě. Společně hledáme způsob práce, který by nám vyhovoval.
+            na dohodě. Společně hledáme způsob práce, který by nám bude vyhovovat.
           </p>
 
           <p>
-            Můj teoretický základ čerpá z více teoretických základů. Společně 
+            Můj teoretický základ čerpá z více základů. Společně 
             s klientem se snažím najít postup, který nám oběma bude nejvíce 
-            vyhovat. Nepopírám, že fáze společného hledání není jednoduchá, jsem 
+            vyhovat. Nepopírám, že fáze společného hledání je někdy složitá, jsem 
             ale přesvědčen, že to svoje ovoce přináší.
-          </p>
+          </p> 
         </div>
       </section>
     </article>
