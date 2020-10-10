@@ -1580,7 +1580,7 @@
 	#banner {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
-		@include vendor('justify-content', 'center');
+		@include vendor('justify-content','space-around');
 		cursor: default;
 		height: 100vh;
 		min-height: 35em;
@@ -1682,12 +1682,13 @@
 		}
 
 		@include breakpoint('<=small') {
-			@include padding(7em, 3em);
+			@include padding(17em, 3em);
 			height: auto;
 			min-height: 0;
 
 			h2 {
 				font-size: 1.25em;
+				margin-top: 30vh;
 			}
 
 			br {
@@ -1727,13 +1728,16 @@
 	#cta {
 		.inner {
 			@include vendor('display', 'flex');
-			max-width: 45em;
+			max-width: 55em;
 
 			header {
 				@include vendor('order', '1');
 				padding-right: 3em;
 				width: 70%;
 
+				h2 {
+					margin-top:30vh;
+				}
 				p {
 					color: inherit;
 				}
@@ -1741,6 +1745,7 @@
 
 			.actions {
 				@include vendor('order', '2');
+				margin-top:30vh;
 				width: 30%;
 			}
 
@@ -1756,15 +1761,24 @@
 				.actions {
 					margin-left: auto;
 					margin-right: auto;
+					margin-top: auto;
 					max-width: 20em;
 					width: 100%;
 				}
 			}
 
 			@include breakpoint('<=small') {
+				@include padding(7em, 3em);
+				header {
+					margin-top:25vh;
+					padding-right: 0;
+					width: 100%;
+				}
 				.actions {
 					max-width: none;
+					margin-top:0;
 				}
+
 			}
 		}
 	}

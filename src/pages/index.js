@@ -1,9 +1,6 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -11,6 +8,7 @@ import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
+      <div></div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -111,10 +109,8 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Nejčastější témata</h2>
+          <h2>Nejčastější otázky</h2>
           <p>
-            Pár nečastějších dotazů.
-            <br />
             Pokud máte jakýkoliv jiný dotaz, pište na&nbsp;
             <a href="mailto:mail@tomasnovacek.com?Subject=dotaz%20z%20webu" target="_top">email.</a> 
           </p>
@@ -152,7 +148,7 @@ const IndexPage = () => (
           <li className="icon solid fa-link">
             <h3>Zajímavé odkazy</h3>
             <p>
-              ČAP, Integrace v psychoterapii, EAP
+              ČAP, <a href="https://https://www.psychoterapie-integrace.cz">Integrace v psychoterapii</a>, EAP
             </p>
           </li>
           <li className="icon solid fa-money-bill">
@@ -171,7 +167,7 @@ const IndexPage = () => (
         <header>
           <h2>Buďme v kontaktu</h2>
           <p>
-            Objednejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde</a> 
+            Objednejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde </a> 
             nebo napište <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>.
           </p>
         </header>

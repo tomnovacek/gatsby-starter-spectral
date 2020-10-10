@@ -13,10 +13,9 @@ const IndexPage = () => (
         <div className="inner">
         <h3>Pár slov o mně</h3>
           <p>
-            Lidi mě fascinovali odjakživa. I proto jsem studoval společnské vědy.
+            Lidi mě fascinovali odjakživa. I proto jsem studoval společenské vědy.
             Nejdříve ekonomii a potom i psychologii. Absolvoval jsem výcvik v koučinku
-            a aktuálně jsem ve výcviku Integrace v psychoterapii.   
-
+            a aktuálně jsem ve výcviku Integrace v psychoterapii.
           </p>
 
           <hr />
@@ -29,9 +28,9 @@ const IndexPage = () => (
           </p>
 
           <p>
-            Můj teoretický základ čerpá z více základů. Společně 
+            Můj teoretický základ čerpá z více zdrojů. Společně 
             s klientem se snažím najít postup, který nám oběma bude nejvíce 
-            vyhovat. Nepopírám, že fáze společného hledání je někdy složitá, jsem 
+            vyhovovat. Nepopírám, že fáze společného hledání je někdy složitá, jsem 
             ale přesvědčen, že to svoje ovoce přináší.
           </p> 
         </div>
