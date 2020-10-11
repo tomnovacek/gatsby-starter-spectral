@@ -1793,7 +1793,10 @@
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			text-align: center;
+			text-align: left;
+			height: 50vh;
+			overflow: hidden;
+			position: relative;
 
 			h2 {
 				font-size: 1.75em;
