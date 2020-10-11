@@ -165,9 +165,9 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Buďme v kontaktu</h2>
+          <h2>Kontakt</h2>
           <p>
-            Objednejte se <a href="https://calendly.com/tomas-novacek/setkani-1">zde </a> 
+            Rezervujte si setkání <a href="https://calendly.com/tomas-novacek/setkani-1">zde </a> 
             nebo napište <a href="mailto:mail@tomasnovacek.com?Subject=kontakt%20z%20webu" target="_top">email</a>.
           </p>
         </header>
