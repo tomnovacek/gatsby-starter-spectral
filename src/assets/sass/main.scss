@@ -1768,9 +1768,9 @@
 			}
 
 			@include breakpoint('<=small') {
-				@include padding(7em, 3em);
+				@include padding(0em, 3em);
 				header {
-					margin-top:25vh;
+					margin-top:40vh;
 					padding-right: 0;
 					width: 100%;
 				}
@@ -1788,7 +1788,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Tom.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.1))', 'url("../images/Tom.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1834,18 +1834,18 @@
 		}
 	}
 
-	body.is-mobile {
+	/* body.is-mobile {
 		#main {
 			> header {
-				background-attachment: fixed; /*scroll made the background over the whole page*/
+				background-attachment: scroll;
 			}
 		}
-	}
+	} */
 
 /* Footer */
 
 	#footer {
-		@include padding(6em, 0);
+		@include padding(4em, 0);
 		background-color: darken(_palette(bg), 8);
 		text-align: center;
 
@@ -1901,11 +1901,11 @@
 		}
 
 		@include breakpoint('<=medium') {
-			@include padding(4em, 3em);
+			@include padding(3em, 3em);
 		}
 
 		@include breakpoint('<=small') {
-			@include padding(3em, 2em);
+			@include padding(2em, 2em);
 		}
 	}
 

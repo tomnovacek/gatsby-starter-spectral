@@ -15,7 +15,7 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
             <Scroll type="id" element="cta">
-              <a href="/#" className="button primary">
+              <a href="/#" className="button fit">
                 Kontakt
               </a>
             </Scroll>
