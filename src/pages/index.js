@@ -8,7 +8,7 @@ import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
-      <div></div>
+      <div></div> {/*TODO: better flexbox distribution*/}
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
