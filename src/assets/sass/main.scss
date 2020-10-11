@@ -1835,9 +1835,16 @@
 	}
 
 	body.is-mobile {
+		html, body { /*ios does not support fixed background */
+			width:100%;
+			height:100%;
+		}
 		#main {
 			> header {
-				background-attachment: initial;
+				 /*background-attachment:fixed;*/
+				 width: 100%;
+				 height: 100%;
+				 overflow: scroll;
 			}
 		}
 	} 
@@ -1931,6 +1938,10 @@
 			#page-wrapper {
 				background: none;
 			}
+			body, html {
+				height: 100%;
+				width: 100%;
+			}
 
 			#banner,
 			.wrapper.style4 {
@@ -1938,7 +1949,10 @@
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				background-attachment: initial;
+				position:fixed;
+				width: 100%;
+				height: 100%;
+				overflow: scroll;
 			}
 
 			#footer {
