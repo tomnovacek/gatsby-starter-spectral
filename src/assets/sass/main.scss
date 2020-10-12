@@ -1650,6 +1650,7 @@
 			width: 16em;
 			z-index: 1;
 
+			/* arrow read more */
 			&:after {
 				background-image: url('../images/arrow.png');
 				background-position: center;
@@ -1965,9 +1966,11 @@
 				display: block;
 				top: 0;
 				left: 0;
+				right: 0;
 				width: 100%;
-				height: 100%;
+				height: 100vh;
 				background-size: cover;
+				background-repeat: no-repeat;
 				background-position: center center;
 			}
 
